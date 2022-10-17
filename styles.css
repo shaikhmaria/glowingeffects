@@ -1,0 +1,253 @@
+body {
+  margin: auto;
+  background-color: black;
+  font-weight: normal;
+  text-align: center;
+}
+
+
+
+h1 {
+  font-size: 90px;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+}
+
+h2 {
+  right: auto;
+  left: auto;
+  font-size: 40px;
+  font-family: 'Cinzel', serif;
+  font-weight: normal;
+
+}
+
+
+h3 {
+  font-size: 50px;
+
+}
+
+p {
+  font-size: 30px;
+  font-family: 'Cinzel', serif;
+  }
+
+
+
+
+.top {
+  background-image: url(got.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  padding-top: 40px;
+  height: 400px;
+  position: relative;
+
+}
+
+.top1 {
+  background-image: url(penny.jpg);
+  background-size: 120%;
+  background-position: 10%center;
+  padding-top: 40px;
+  position: relative;
+  height: 400px;
+
+
+}
+
+.top2 {
+  background-image: url(jeff.png);
+  background-size: 80%;
+  background-position: 10%top;
+  background-position: 10%right;
+  position: relative;
+  height: 450px;
+
+}
+
+.top3 {
+  margin-top: 200px;
+  width: 50%;
+  position: relative;
+  height: 200px;
+  left: 100px;
+  top: 100px;
+}
+
+
+
+.bottom {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  margin-top: 200px;
+  height: 90px;
+  background-color: #0B0B0D;
+  color: #555555;
+
+}
+
+.last {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #2B2B2B;
+}
+
+.last:hover {
+  font-family: 'Outfit', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  color: #423F3E;
+
+}
+
+.spider {
+  position: relative;
+  margin-right: 20px;
+  bottom: 300px;
+  left: 800px;
+}
+
+
+
+
+/* GLOW EFFECTS */
+
+.neon {
+  position: relative;
+  top: 20px;
+  text-align: right;
+  right: 100px;
+  color: white;
+  text-shadow:
+      0 0 7px white,
+      0 0 10px white,
+      0 0 21px white,
+      0 0 42px #2155CD,
+      0 0 82px #2155CD,
+      0 0 92px #2155CD,
+      0 0 102px #2155CD,
+      0 0 151px #2155CD;
+}
+
+.glow1 {
+  width: 50%;
+  right: auto;
+  left: auto;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  font-size: 70px;
+  text-align: left;
+
+}
+
+
+.glow11 {
+  width: 50%;
+  right: auto;
+  left: auto;
+  position: relative;
+  top: 70px;
+  left: 100px;
+  font-size: 50px;
+  text-align: left;
+  color: white;
+  text-shadow:
+  0 0 7px white,
+  0 0 10px white,
+  0 0 21px white,
+  0 0 42px red,
+  0 0 82px red,
+  0 0 92px red,
+  0 0 102px red,
+  0 0 151px red;
+}
+
+.glow2 {
+  width: 50%;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  position: relative;
+  top: 300px;
+  left: 800px;
+  font-size: 60px;
+  color: white;
+  text-shadow:
+  0 0 7px white,
+  0 0 10px white,
+  0 0 21px white,
+  0 0 42px yellow,
+  0 0 82px yellow,
+  0 0 92px yellow,
+  0 0 102px yellow,
+  0 0 151px yellow;
+
+}
+
+
+.about {
+  position: relative;
+  bottom: 600px;
+
+  color: white;
+  font-family: 'Cinzel', serif;
+  text-align: left;
+  text-shadow:
+      0 0 7px white,
+      0 0 10px white,
+      0 0 21px white,
+      0 0 42px #595260,
+      0 0 82px #595260,
+      0 0 92px #595260,
+      0 0 102px #595260,
+      0 0 151px #595260;
+}
+
+
+.about:hover {
+  color: white;
+  font-family: 'Cinzel', serif;
+  text-align: left;
+  text-shadow:
+      0 0 7px white,
+      0 0 10px white,
+      0 0 21px white,
+      0 0 42px #A8E890,
+      0 0 82px #A8E890,
+      0 0 92px #A8E890,
+      0 0 102px #A8E890,
+      0 0 151px #A8E890;
+}
+
+
+/* FOR FLICKERING */
+
+.glow1 {
+  animation: flicker 1.5s infinite alternate;
+  color: white;
+}
+
+@keyframes flicker {
+
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+
+    text-shadow:
+        0 0 4px white,
+        0 0 11px white,
+        0 0 19px white,
+        0 0 40px red,
+        0 0 80px red,
+        0 0 90px red,
+        0 0 100px red,
+        0 0 150px red;
+
+    }
+
+    20%, 24%, 55% {
+        text-shadow: none;
+    }
+  }
